@@ -1,11 +1,12 @@
 {
-  "name": "react-mathquill",
-  "version": "1.0.3",
-  "description": "React component wrapper for Mathquill",
+  "name": "@obennet/react-mathquill",
+  "version": "0.1.0",
+  "description": "React component wrapper for @obennet/mathquill",
   "main": "index.js",
   "typings": "index.d.ts",
-  "repository": "git@github.com:viktorstrate/react-mathquill.git",
+  "repository": "git@github.com:obennet/react-mathquill.git",
   "author": "viktorstrate <viktorstrate@gmail.com>",
+  "contributors": ["Oscar Bennet <oscar.bennet@outlook.com"],
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -18,7 +19,6 @@
     "prepublish": "rm -rf dist/ && npm run build",
     "prepublishOnly": "npm run test"
   },
-  "dependencies": {},
   "peerDependencies": {
     "react": "^18.2.0"
   },
@@ -26,11 +26,11 @@
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
-    "@edtr-io/mathquill": "^0.11.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.4.0",
     "eslint": "^7",
+    "@obennet/mathquill": "^0.1.0",
     "eslint-plugin-react": "^7.26.1",
     "exports-loader": "^3.1.0",
     "file-loader": "^6.2.0",
