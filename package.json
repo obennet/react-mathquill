@@ -1,6 +1,6 @@
 {
   "name": "@obennet/react-mathquill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React component wrapper for @obennet/mathquill",
   "main": "index.js",
   "typings": "index.d.ts",
