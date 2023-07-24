@@ -1,11 +1,10 @@
 # React component wrapper for [Mathquill](http://mathquill.com/)
 
-[![npm version](https://badge.fury.io/js/react-mathquill.svg)](https://badge.fury.io/js/react-mathquill)
+[![npm version](https://badge.fury.io/js/@obennet%2Freact-mathquill.svg)](https://badge.fury.io/js/@obennet%2Freact-mathquill)
 
 ## Examples
 
-- [Build of examples](https://viktorstrate.github.io/react-mathquill/) located at `src/examples/`
-- Play with the examples below at this [Code Sandbox](https://codesandbox.io/s/sweet-liskov-8mlzu)
+- [Build of examples](https://github.com/obennet/react-mathquill/tree/master/examples/src) located at `src/examples/`
 
 ### Editable Math Field
 
@@ -48,6 +47,11 @@ const StaticMathExample = () => (
   <StaticMathField>{'\\frac{1}{\\sqrt{2}}\\cdot 2'}</StaticMathField>
 )
 ```
+
+## Differences from original package
+This fork is a React wrapper for [obennet/mathquill](https://github.com/obennet/mathquill) [![npm version](https://badge.fury.io/js/@obennet%2Fmathquill.svg)](https://badge.fury.io/js/@obennet%2Fmathquill)
+- Added support for LateX text types.
+- Fixed bug where the component would throw error when selecting text in a textblock.
 
 # Documentation
 
